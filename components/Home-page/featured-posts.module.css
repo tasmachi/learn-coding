@@ -1,0 +1,11 @@
+.latest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #141418;
+}
+
+.latest h2 {
+  margin-bottom: 1rem;
+}

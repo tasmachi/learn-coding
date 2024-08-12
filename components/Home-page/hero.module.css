@@ -1,0 +1,33 @@
+/* components/Home-page/hero.module.css */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .heroDescription {
+    font-size: 1.2rem;
+    color: var(--color-text);
+    margin-top: 1rem;
+    max-width: 600px;
+  }
+  

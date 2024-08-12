@@ -1,0 +1,99 @@
+.contact {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #201e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(32, 32, 32, 0.5);
+  }
+  
+  .contact h1 {
+    font-size: 2rem;
+    color: #f5f5f5;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .control {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #cccccc;
+  }
+  
+  .control input,
+  .control textarea {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #444444;
+    background-color: #2b2b2b;
+    color: #f5f5f5;
+  }
+  
+  .control input:focus,
+  .control textarea:focus {
+    outline: none;
+    border-color: #1e90ff;
+    box-shadow: 0 0 4px rgba(30, 144, 255, 0.5);
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    background-color: #1e90ff;
+    color: white;
+    border: 1px solid #1e90ff;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #104e8b;
+    border-color: #104e8b;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 600px) {
+    .controls {
+      flex-direction: column;
+    }
+  
+    .actions button {
+      width: 100%; /* Full width button on mobile */
+    }
+    
+    .contact {
+      margin: 1rem;
+      padding: 1rem;
+    }
+  
+    .contact h1 {
+      font-size: 1.5rem;
+    }
+  }
+  

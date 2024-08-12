@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #090a22;
+}
+
+.navlist {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #f2eaea;
+  font-weight: bold;
+}
+
+.navlink:hover {
+  color: #848880;
+}

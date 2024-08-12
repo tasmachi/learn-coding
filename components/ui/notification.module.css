@@ -1,0 +1,22 @@
+.notification {
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 40rem;
+    text-align: center;
+    color: #fff;
+}
+
+.success {
+    background-color: #4caf50; /* Green */
+}
+
+.error {
+    background-color: #f44336; /* Red */
+}
+
+.pending {
+    background-color: #2196f3; /* Blue */
+}
